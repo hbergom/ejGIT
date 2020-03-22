@@ -8,9 +8,14 @@ let tareaXArg = process.argv[3];
 switch (accion) {
     case 'Listar':
         console.log('\nListado de tareas:\n');
-
         console.log('\n');
         break;
+
+    case 'Agregar':
+        console.log('\nAgregue una tarea:\n');
+        console.log('\n');
+        break;
+
 
     case undefined:
         console.log('\nNecesito una acción \n *-Listar \n *-Crear \n *-Filtrar \n');
